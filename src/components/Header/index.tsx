@@ -3,8 +3,9 @@ import logo from '../../assets/logo-dio.png'
 import { Button } from "../Button";
 
 import { BuscarInputContainer, Container, Input, Menu, MenuRight, Row, Wrapper, UserPicture } from "./styles";
+import { IHeader } from './types';
 
-const Header = ({autenticado}) => {
+const Header = ({autenticado}: IHeader) => {
   return (
     <Wrapper>
       <Container>
