@@ -16,7 +16,6 @@ const Input = ({leftIcon, name, control, errorMessage, ...rest}: IInput) => {
           render={({ field: {value, onChange} }) => <InputText value={value} onChange={onChange} {...rest} />} />
       </InputContainer>
       {errorMessage ? <ErrorTxt>{errorMessage}</ErrorTxt> : null}
-      <input></input>
     </>
   )
 }

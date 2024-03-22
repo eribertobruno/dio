@@ -4,12 +4,12 @@
             "id": 1,
             "name": "Eriberto",
             "email": "eriberto@email.com",
-            "senha": "123456"},
+            "password": "123456"},
         {
             "id": 2,
             "name": "Bruno",
             "email": "bruno@email.com",
-            "senha": "123456"
+            "password": "123456"
         }
     ]
 }
